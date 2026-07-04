@@ -1,0 +1,85 @@
+[
+  {
+    "model": "todo.tag",
+    "pk": 1,
+    "fields": {
+      "name": "Work"
+    }
+  },
+  {
+    "model": "todo.tag",
+    "pk": 2,
+    "fields": {
+      "name": "Home"
+    }
+  },
+  {
+    "model": "todo.tag",
+    "pk": 3,
+    "fields": {
+      "name": "Urgent"
+    }
+  },
+  {
+    "model": "todo.tag",
+    "pk": 4,
+    "fields": {
+      "name": "Study"
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 1,
+    "fields": {
+      "content": "Prepare a presentation for the diploma thesis defense",
+      "created_at": "2026-07-04T12:00:00Z",
+      "deadline": "2026-07-10T18:00:00Z",
+      "is_done": false,
+      "tags": [4, 3]
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 2,
+    "fields": {
+      "content": "Buy groceries for dinner (milk, bread, chicken)",
+      "created_at": "2026-07-04T14:30:00Z",
+      "deadline": null,
+      "is_done": false,
+      "tags": [2]
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 3,
+    "fields": {
+      "content": "Fix NoReverseMatch bug in the News Agency project",
+      "created_at": "2026-07-03T09:15:00Z",
+      "deadline": "2026-07-04T20:00:00Z",
+      "is_done": true,
+      "tags": [1, 3]
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 4,
+    "fields": {
+      "content": "Read 2 chapters of the Python design patterns book",
+      "created_at": "2026-07-01T10:00:00Z",
+      "deadline": null,
+      "is_done": true,
+      "tags": [4]
+    }
+  },
+  {
+    "model": "todo.task",
+    "pk": 5,
+    "fields": {
+      "content": "Set up environment variables and build.sh script on Render",
+      "created_at": "2026-07-04T15:00:00Z",
+      "deadline": "2026-07-05T12:00:00Z",
+      "is_done": false,
+      "tags": [1]
+    }
+  }
+]
