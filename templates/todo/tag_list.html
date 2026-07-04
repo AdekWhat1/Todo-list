@@ -22,8 +22,8 @@
                             <span class="badge badge-info p-2">{{ tag.name }}</span>
                         </td>
                         <td class="align-middle text-right pr-4">
-                            <a href="{% url 'todo:tag-update' pk=tag.pk %}" class="btn btn-sm btn-outline-primary">Update ✏️</a>
-                            <a href="{% url 'todo:tag-delete' pk=tag.pk %}" class="btn btn-sm btn-outline-danger ml-2">Delete 🗑️</a>
+                            <a href="{% url 'todo:tag-update' pk=tag.pk %}" class="btn btn-sm btn-outline-primary">Update</a>
+                            <a href="{% url 'todo:tag-delete' pk=tag.pk %}" class="btn btn-sm btn-outline-danger ml-2">Delete</a>
                         </td>
                     </tr>
                 {% empty %}
