@@ -35,7 +35,7 @@
 
                 <div class="col-md-4 text-right">
                     <a href="{% url 'todo:task-toggle' pk=task.pk %}" class="btn btn-sm {% if task.is_done %}btn-secondary{% else %}btn-success{% endif %}">
-                        {% if task.is_done %}Undo 🔄{% else %}Complete{% endif %}
+                        {% if task.is_done %}Undo{% else %}Complete{% endif %}
                     </a>
                     <a href="{% url 'todo:task-update' pk=task.pk %}" class="btn btn-sm btn-outline-primary ml-1">Update</a>
                     <a href="{% url 'todo:task-delete' pk=task.pk %}" class="btn btn-sm btn-outline-danger ml-1">Delete</a>
